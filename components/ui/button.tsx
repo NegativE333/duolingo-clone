@@ -21,6 +21,7 @@ const buttonVariants = cva(
         ghost: "bg-transparent text-slate-500 border-transparent border-0 hover:bg-slate-100",
         sidebar: "bg-transparent text-slate-500 border-2 border-transparent hover:bg-slate-100 transition-none",
         sidebarOutline: "bg-sky-500/15 text-sky-500 border-sky-300 border-2 hover:bg-sky-500/20 transition-none",
+        locked: "bg-netural-200 text-primary-foreground hover:bg-netural-200/90 border-netural-400 border-b-4"
       },
       size: {
         default: "h-11 px-4 py-2",
