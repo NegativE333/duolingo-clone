@@ -5,10 +5,10 @@ import { useKey, useMedia } from "react-use";
 
 
 type Props = {
-    disabled: boolean;
     status: "correct" | "wrong" | "none" | "completed";
-    onCheck?: () => void;
-    lessonId?: boolean;
+    onCheck: () => void;
+    disabled?: boolean;
+    lessonId?: number;
 }
 
 export const Footer = ({
