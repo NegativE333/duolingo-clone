@@ -3,7 +3,6 @@
 import { useRouter } from "next/navigation";
 import {
     Dialog,
-    DialogClose,
     DialogContent,
     DialogDescription,
     DialogHeader,
@@ -17,8 +16,8 @@ import { Button } from "../ui/button";
 
 export const ExitModal = () => {
     const router = useRouter();
-    const [isClient, setIsClient] = useState(false);
     const { isOpen, close } = useExitModal();
+    const [isClient, setIsClient] = useState(false);
 
     useEffect(() => setIsClient(true), []);
 
